@@ -18,3 +18,14 @@ print(my_list)
 my_list.extend([50, 60, 70])
 
 print(my_list)
+
+# remove the lst element from my list
+my_list.pop()
+
+print(my_list)
+
+# sort in ascending order
+my_list.sort()
+
+#find and print index of value 30
+print(my_list.index(30))
